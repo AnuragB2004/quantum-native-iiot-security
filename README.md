@@ -6,12 +6,6 @@
 
 **Companion code for the paper:**  
 *"A Fully Quantum-Native Security Protocol for Industrial Internet of Things Automation"*  
-by Anurag Bhattacharjee, Anjan Bandyopadhyay, and Neeraj Sharma
-
-**Published in:** IEEE Transactions on Quantum Engineering (2026)  
-**DOI:** [10.1109/TQE.2026.DOI] *(update when available)*
-
----
 
 ## 📋 Table of Contents
 
@@ -24,7 +18,6 @@ by Anurag Bhattacharjee, Anjan Bandyopadhyay, and Neeraj Sharma
 - [Running Experiments](#running-experiments)
 - [Reproducing Paper Results](#reproducing-paper-results)
 - [Hardware Execution](#hardware-execution)
-- [Citation](#citation)
 - [License](#license)
 - [Contact](#contact)
 
@@ -94,7 +87,7 @@ scipy >= 1.10.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/quantum-native-iiot-security.git
+git clone https://github.com/AnuragB2004/quantum-native-iiot-security.git
 cd quantum-native-iiot-security
 
 # Create virtual environment (recommended)
@@ -109,7 +102,7 @@ pip install -r requirements.txt
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/quantum-native-iiot-security.git
+git clone https://github.com/AnuragB2004/quantum-native-iiot-security.git
 cd quantum-native-iiot-security
 
 # Create conda environment
@@ -475,25 +468,6 @@ Detailed documentation available in `docs/`:
 
 ---
 
-## 📚 Citation
-
-If you use this code in your research, please cite our paper:
-
-```bibtex
-@article{bhattacharjee2026quantum,
-  title={A Fully Quantum-Native Security Protocol for Industrial Internet of Things Automation},
-  author={Bhattacharjee, Anurag and Bandyopadhyay, Anjan and Sharma, Neeraj},
-  journal={IEEE Transactions on Quantum Engineering},
-  year={2026},
-  volume={X},
-  number={X},
-  pages={XX--XX},
-  doi={10.1109/TQE.2026.DOI}
-}
-```
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Please:
@@ -544,12 +518,8 @@ SOFTWARE.
 **Email:** anuragdgp@gmail.com  
 **Institution:** Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar, India
 
-**Co-Authors:**
-- Dr. Anjan Bandyopadhyay (KIIT)
-- Dr. Neeraj Sharma (Lovely Professional University)
-
 **Issues & Support:**  
-Please use the [GitHub Issues](https://github.com/[your-username]/quantum-native-iiot-security/issues) page for bug reports and feature requests.
+Please use the [GitHub Issues](https://github.com/AnuragB2004/quantum-native-iiot-security/issues) page for bug reports and feature requests.
 
 ---
 
@@ -587,5 +557,3 @@ Please use the [GitHub Issues](https://github.com/[your-username]/quantum-native
 ---
 
 **Star ⭐ this repository if you find it useful!**
-
-Last Updated: February 2026
