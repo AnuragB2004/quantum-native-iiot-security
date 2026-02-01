@@ -1,0 +1,34 @@
+# Default Configuration for Quantum-Native IIoT Security Protocol
+
+authentication:
+  rounds: 100                 # Number of authentication rounds
+  threshold: 0.05            # Acceptance threshold for probability deviation
+  shots: 1024                # Measurement shots per round
+
+bb84:
+  key_length: 256            # Target final key length in bits
+  qber_threshold: 0.11       # QBER threshold for aborting (11% for BB84)
+  test_fraction: 0.5         # Fraction of sifted key used for QBER estimation
+  shots: 1024                # Measurement shots per qubit
+
+entanglement:
+  trials: 50                 # Number of entanglement verification trials
+  shots: 4096                # Measurement shots per trial
+  fidelity_threshold: 0.85   # Minimum acceptable correlation fidelity
+  chsh_threshold: 2.0        # Minimum CHSH value (classical bound)
+
+execution:
+  mode: simulator            # Options: simulator, noisy, hardware
+  backend: null              # IBM Quantum backend name (null for default)
+  optimization_level: 3      # Circuit optimization level (0-3)
+  seed: 42                   # Random seed for reproducibility
+
+logging:
+  level: INFO                # Logging level: DEBUG, INFO, WARNING, ERROR
+  save_to_file: true         # Save logs to file
+  output_dir: outputs/logs   # Log output directory
+
+experimental:
+  save_circuits: false       # Save circuit diagrams
+  save_raw_data: true        # Save raw measurement data
+  output_format: json        # Output format: json, csv, both
